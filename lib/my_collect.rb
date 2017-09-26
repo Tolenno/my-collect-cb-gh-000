@@ -12,11 +12,3 @@ def my_collect(array)
   else
     "Wat." #did not give a block
 end
-
-
-
-3.
-4.
-5.
-6. Exit the while loop
-7. Return the collection array
