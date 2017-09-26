@@ -1,13 +1,16 @@
 array = ["Time", "Tom", "Bob"]
 
 def my_collect(array)
-  index = 0
-  collection = []
-  while index < array.size
-    collection << yield(array[index])
-    index += 1
-  end
-  collection
+  if block_given?
+    index = 0
+    collection = []
+    while index < array.size
+      collection << yield(array[index])
+      index += 1
+    end
+    collection
+  else
+    "Wat."
 end
 
 1. count the current index we are on
