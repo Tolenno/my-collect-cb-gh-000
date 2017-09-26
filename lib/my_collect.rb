@@ -11,4 +11,5 @@ def my_collect(array)
     collection #return the collection array
   else
     "Wat." #did not give a block
+  end
 end
